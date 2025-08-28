@@ -1,0 +1,29 @@
+# Python WebSocket客户端依赖包
+# WebSocket客户端核心库
+websockets>=11.0.3
+
+# 日志和配置
+colorlog>=6.7.0
+
+# 异步IO增强
+aiofiles>=23.2.1
+
+# JSON处理增强
+orjson>=3.9.10
+
+# SSL/TLS支持
+certifi>=2023.11.17
+
+# 开发和测试依赖
+pytest>=7.4.3
+pytest-asyncio>=0.21.1
+pytest-cov>=4.1.0
+
+# 代码质量
+black>=23.11.0
+flake8>=6.1.0
+mypy>=1.7.1
+
+# 文档生成
+sphinx>=7.2.6
+sphinx-rtd-theme>=1.3.0
