@@ -1,0 +1,27 @@
+{
+  "name": "websocket-client-demo",
+  "version": "1.0.0",
+  "description": "Node.js WebSocket客户端示例，支持自定义请求头",
+  "main": "websocket-client.js",
+  "scripts": {
+    "start": "node example.js",
+    "test": "node test-websocket.js"
+  },
+  "keywords": [
+    "websocket",
+    "nodejs",
+    "client",
+    "headers"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.14.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
